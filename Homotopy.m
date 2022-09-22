@@ -167,3 +167,4 @@ end
           
           
 NashEQ = {sigmai ; sigmaj};
+
