@@ -10,8 +10,11 @@ The project consists of two files:
 
 1. **UseHomotopy**: In this file you can define the game to be solved. Use the matrix notation of a normal form game, and provide the players' payoff for each possible
 outcome. Furthermore, define the algorithms starting point, keeping in mind that the solution will be path dependent.   
+
 2. **Homotopy**: This function is the actual algorithm that solves the two player normal form game for Nash Equilibria, keep in mind to set the right path in 
 UseHomotopy 
+
+![](https://github.com/MarkMH/homotopy_methods/blob/4f5c49e66e0839fcfecacaac80a4a5c7268a1dae/images/banner_chomotopy.png)
 
 ---
 
