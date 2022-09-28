@@ -1,6 +1,6 @@
 
 
-![](https://github.com/MarkMH/homotopy_methods/blob/300bdef161698ff8526625a7b9648a838b246cb8/banner_homotopy.jpg)
+![](https://github.com/MarkMH/homotopy_methods/blob/1d03f9b2e67248adc20d3d807db515c2eed6681f/images/banner_homotopy.jpg)
 
 This very simple project is designed to solve two player normal form games for Nash Equilibria. The design is such that the algortim will find one equilibrium, 
 if any exist, which does not ensure that is the unique equilibrium. Far from that, the solution is path depend, i.e., choosing a different starting point 
