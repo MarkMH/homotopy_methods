@@ -13,6 +13,8 @@ outcome. Furthermore, define the algorithms starting point, keeping in mind that
 2. **Homotopy**: This function is the actual algorithm that solves the two player normal form game for Nash Equilibria, keep in mind to set the right path in 
 UseHomotopy 
 
+---
+
 Disclaimer: This is one of my first projects, the coding is very simplistic and redundant. Should you wish to use it, I strongly advise to improving the coding before you do. 
 
 
