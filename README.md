@@ -8,8 +8,14 @@ is likely to result in different Nash Equilibria, if more than one exists.
 
 The project consists of two files: 
 
+---
+
 1. **UseHomotopy**: In this file you can define the game to be solved. Use the matrix notation of a normal form game, and provide the players' payoff for each possible
 outcome. Furthermore, define the algorithms starting point, keeping in mind that the solution will be path dependent.   
+
+![](https://github.com/MarkMH/homotopy_methods/blob/0c1ff140360e552ace91f3fb88d51c85a3aa4c30/images/banner_usehomotopy.png)
+
+---
 
 2. **Homotopy**: This function is the actual algorithm that solves the two player normal form game for Nash Equilibria, keep in mind to set the right path in 
 UseHomotopy 
