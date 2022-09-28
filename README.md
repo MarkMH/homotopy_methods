@@ -1,4 +1,4 @@
-![](https://github.com/MarkMH/homotopy_methods/blob/c9ab800a09babfde97844d726595457bf5138a6c/Homotopy_Methods%20(2).png)
+![](https://github.com/MarkMH/homotopy_methods/blob/246d2fce237d1765ca611fcc2db406b93f7517b2/Homotopy_Methods.png)
 
 # Homotopy Methods
 
