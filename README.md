@@ -10,15 +10,13 @@ The project consists of two files:
 
 ---
 
-1. **UseHomotopy**: In this file you can define the game to be solved. Use the matrix notation of a normal form game, and provide the players' payoff for each possible
-outcome. Furthermore, define the algorithms starting point, keeping in mind that the solution will be path dependent.   
+1. **UseHomotopy**: In this file the non-degenerate bimatrix game needs to be defined. Provide the players' payoff in matrix, below you can find an example for a 3x3 game with player A and player B. Solving the game using the Homotopy function described below, leads to a Nash Equilibrium where player A plays the first strategy, while player B plays the last strategy. See sigmaH1 and sigmaH2.   
 
 ![](https://github.com/MarkMH/homotopy_methods/blob/0c1ff140360e552ace91f3fb88d51c85a3aa4c30/images/banner_usehomotopy.png)
 
 ---
 
-2. **Homotopy**: This function is the actual algorithm that solves the two player normal form game for Nash Equilibria, keep in mind to set the right path in 
-UseHomotopy 
+2. **Homotopy**: This function is the actual algorithm that solves the non-degenerate bimatrix game for Nash Equilibria. Besides the payoff matrices defined above, this function needs a starting point, which is can be any stratey from the players strategy space, denoted by j. With w, we set the learning rate. Keep in mind that the algorithm is path dependent, thus selecting different initial strategies potentially leads to different Nash Equilibirum, if the game does not have a unique Nash Equilibirum.  
 
 ![](https://github.com/MarkMH/homotopy_methods/blob/4f5c49e66e0839fcfecacaac80a4a5c7268a1dae/images/banner_chomotopy.png)
 
