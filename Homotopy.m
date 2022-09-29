@@ -1,3 +1,4 @@
+%% Written by Mark Marner-Hausen
 function NashEQ = Homotopy(A,B,j,w)
 
     % Syntax:
