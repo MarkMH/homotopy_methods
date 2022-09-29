@@ -2,26 +2,26 @@
 
 ![](https://github.com/MarkMH/homotopy_methods/blob/1d03f9b2e67248adc20d3d807db515c2eed6681f/images/banner_homotopy.jpg)
 
-This very simple project is designed to solve two player normal form games for Nash Equilibria. The design is such that the algortim will find one equilibrium, 
-if any exist, which does not ensure that is the unique equilibrium. Far from that, the solution is path depend, i.e., choosing a different starting point 
-is likely to result in different Nash Equilibria, if more than one exists. 
+This very simple project is designed to solve non-degenerate bimatrix games for Nash equilibria. The design is such that the algortim finds an equilibrium, 
+if there is one, but this does not mean that it is the only equilibrium. Rather, the solution is path-dependent, meaning that choosing a different initial strategy 
+is likely to lead to a different Nash equilibrium if more than one exists. 
 
 The project consists of two files: 
 
 ---
 
-1. **UseHomotopy**: In this file the non-degenerate bimatrix game needs to be defined. Provide the players' payoff in matrix, below you can find an example for a 3x3 game with player A and player B. Solving the game using the Homotopy function described below, leads to a Nash Equilibrium where player A plays the third strategy, while player B plays the first strategy. See sigmaH1 and sigmaH2.   
+1. **UseHomotopy**: This file defines the non-degenerate bimatrix game to be solved. In the example below, each player has two strategies, the entries of the matrices are the payoffs of each player for every possible outcome. Please visit my personal website if you have not already, for more details, this is the example Game 2 described there. Solving the game using the homotopy function described below leads to a Nash equilibrium where players A and B both play the first strategy, represented by sigmaH1 and sigmaH2. If the Nash equilibrium reached, would have benn a mixed strategy equilibrium instead, the entries of sigmaH1 and sigmaH2 would be less than one, but both would add up to one.    
 
-![](https://github.com/MarkMH/homotopy_methods/blob/0c1ff140360e552ace91f3fb88d51c85a3aa4c30/images/banner_usehomotopy.png)
+![](https://github.com/MarkMH/homotopy_methods/blob/5b97e7670bee6fe5ac2812894ec32fc2f1cc5223/images/banner_usehomotopy.png)
 
 ---
 
-2. **Homotopy**: This function is the actual algorithm that solves the non-degenerate bimatrix game for Nash Equilibria. Besides the payoff matrices defined above, this function needs a starting point, which is can be any stratey from the players strategy space, denoted by j. With w, we set the learning rate. Keep in mind that the algorithm is path dependent, thus selecting different initial strategies potentially leads to different Nash Equilibirum, if the game does not have a unique Nash Equilibirum.  
+2. **Homotopy**: This function is the actual algorithm. In addition to the payoff matrices defined above, this function requires a starting point, denoted by *j*, which can be an arbitrary strategy from the player's strategy space. With *w* we define the learning rate. 
 
 ![](https://github.com/MarkMH/homotopy_methods/blob/4f5c49e66e0839fcfecacaac80a4a5c7268a1dae/images/banner_chomotopy.png)
 
 ---
 
-Disclaimer: This is one of my first projects, the coding is very simplistic and redundant. Should you wish to use it, I strongly advise to improving the coding before you do. 
+Disclaimer: This is one of my first projects, the coding is very primitive and redundant. Should you want to use it, I strongly advise to improve the style and efficiently before using the coding. 
 
 
